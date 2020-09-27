@@ -1,0 +1,24 @@
+.footer{
+    margin:100px auto;
+    margin-top: 100px;
+    width: 100%;
+    
+}
+.offices{
+    display: inline-block;
+    max-width: 30%;
+    font-size: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+@media(max-width:992px){
+    .offices{
+        font-size: 70%;
+    }
+}
+@media(max-width:770px){
+    .offices{
+        width: 100%;
+        display: block;
+    }
+}
